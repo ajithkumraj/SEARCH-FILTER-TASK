@@ -1,8 +1,8 @@
 <div>
-<input type="text" [(ngModel)]="aj">
-<div *ngFor = "let aj of items |filter:aj" >
-  <p>
-    {{aj.name}}
-  </p>
+  <input type="text" [(ngModel)]="aj" />
+  <div *ngFor="let aj of items | filter: aj">
+    <p>
+      {{ aj.name }}
+    </p>
+  </div>
 </div>
-</div>  
