@@ -6,14 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  items: string[] = [
-    { name: "ajith kumar" },
-    { name: "venom" },
-    { name: "uthira kumar" },
-    { name: "vaishnavi" },
-    { name: "risha" },
-    { name: "suriya" },
-    { name: "thala" },
+  items: any = [
+    { name: "ajith kumar", age:23 },
+    { name: "venom", age:21},
+    { name: "uthira kumar" , age:24},
+    { name: "vaishnavi" , age:22},
+    { name: "risha" , age:25},
+    { name: "suriya", age:26 },
+    { name: "thala", age:27},
   ];
 
 }
